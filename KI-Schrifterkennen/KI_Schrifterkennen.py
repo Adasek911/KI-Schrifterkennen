@@ -19,3 +19,6 @@ test = louder = torch.utils.data.DataLoader(datasets.MNIST("data", train=False,
                                                     transform=transforms.Compose([transforms.ToTensor(),
                                                     transforms.Normalize((0.1307,),(0.3081,))])),
                                      batch_size=64, shuffle=True, **kwarqs)
+
+Adam
+sads
